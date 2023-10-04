@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+  height: 500px;
+}
+
+header nav {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+header nav .div1nav {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+
+header nav a:hover {
+  border: 1px solid grey;
+  background-color: grey;
+  width: 35px;
+  text-align: center;
+  height: 35px;
+}
+
+.sec1 .div1sec1 {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 55px;
+}
+
+.sec1 .div1sec1 h1 {
+  padding-bottom: 20px;
+  font-size: 50px;
+}
+
+.sec1 .div1sec1 h3 {
+  font-size: 15px;
+}
+
+.sec1 .div1sec1 h3 mark {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.sec1 .div2sec1 {
+  background-image: url(this1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 990px;
+  color: white;
+}
+
+.sec1 .div2sec1 div {
+  position: relative;
+  top: 450px;
+}
+
+.div2sec1 div h1,
+h3 {
+  padding-left: 20px;
+}
+
+.sec1 .div2sec1 div h3 {
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+
+.sec1 .div2sec1 div h1 {
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+
+.sec1 .div2sec1 div button {
+  margin-left: 20px;
+  padding: 13px 19px 13px 19px;
+  background-color: rgb(208, 199, 199);
+  opacity: 0.6;
+  border: 1px solid rgb(208, 199, 199);
+  font-size: 20px;
+}
+
+
+/* Section 2 */
+
+.sec2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  background-color: rgb(240, 237, 237);
+  padding: 30px;
+}
+
+.sec2 .div1sec2 {
+  background-color: white;
+  padding: 22px;
+}
+
+.sec2 .div1sec2 .firstsec2 {
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.sec2 .div1sec2 .firstsec2 h3 {
+  padding-top: 15px;
+}
+
+.sec2 .firstsec2 h3 span {
+  color: rgb(198, 195, 195);
+}
+
+.sec2 .div1sec2 .secondsec2 img {
+  width: 850px;
+  height: 500px;
+}
+
+.sec2 .div1sec2 .secondsec2 p {
+  padding-top: 30px;
+  font-size: 19px;
+  font-weight: 80px;
+}
+
+.firstsecondsec2 {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.div1sec2 .secondsec2 .firstsecondsec2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.div1sec2 .secondsec2 .firstsecondsec2 button {
+  width: 95px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid rgb(240, 235, 235);
+}
+
+.div1sec2 .firstsecondsec2 button[type="reset"] {
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(240, 235, 235);
+  width: 123px;
+}
+
+.div1sec2 .secondsec2 .firstsecondsec2 button span {
+  background-color: white;
+  border: 1px solid rgb(240, 235, 235);
+  padding: 3px;
+  color: black;
+}
+
+.sec2 .div1sec2 {
+  height: 1150px;
+  width: 850px;
+}
+
+.sec2 .secondsec2 .secondsecondsec2 {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+
+}
+
+.sec2 .secondsecondsec2 .divimg img {
+  width: 100px;
+  height: 120px;
+}
+/* FIN PARTY 1 div1sec2 */
+
+.sec2 .div2sec2 .firstdiv2sec2 .sous1div2sec2 {
+  background-image: url(pp2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  width: 365px;
+  height: 250px;
+}
+
+.sec2 .div2sec2 .firstdiv2sec2 p {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.sec2 .div2sec2 .secondiv2sec2{
+  padding-top: 40px;
+}
+
+.sec2 .div2sec2 .secondiv2sec2 .div1 {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.sec2 .div2sec2 .secondiv2sec2 .div2 {
+display: flex;
+flex-direction: row;
+gap: 15px;
+padding: 20px;
+background-color: white;
+}
+.sec2 .div2sec2 .secondiv2sec2 .div2:hover{
+background-color: rgb(202, 200, 200);
+  }
+
+.sec2 .div2sec2 .secondiv2sec2 .div2 img{
+   width: 70px;
+   height: 70px;
+  }
+
+
+  .sec2 .div2sec2 .thirdiv2sec2{
+    padding-top: 40px;
+  }
+
+  .sec2 .div2sec2 .thirdiv2sec2 .div1 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+
+    
+  .sec2 .div2sec2 .thirdiv2sec2 .div2{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+  }
+
+  .sec2 .div2sec2 .thirdiv2sec2 .div2 p{
+    background-color: grey;
+    border: 1px solid grey;
+    padding: 50px;
+    font-weight: 50px;
+    font-size: 17px;
+  }
+
+ 
+
+  /* Section3 */
+  
+  #sec3 .div1sec2 {
+    height: 870px;
+    width: 850px;
+  }
+
+  #sec3 .div2sec2{
+    width: 365px;
+  }
+  #sec3 .div2sec2 .secondiv2sec2{
+    padding-top: 40px;
+  }
+  
+  #sec3 .div2sec2 .firstdiv2sec2 .div1{
+    background-color: black;
+    color: white;
+    padding: 5px;
+  }
+  
+  #sec3 .div2sec2 .firstdiv2sec2 .div2 div{
+    background-color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  padding: 10px;
+  }
+
+  #sec3 .div2sec2 .firstdiv2sec2 .div2 div p {
+    background-color: rgb(190, 186, 186);
+    font-size: 12px;
+    padding: 5px;
+  }
+
+
+  #sec3 .div2sec2 .thirdiv2sec22 .div2{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+
+  }
+
+  #sec3 .div2sec2 .thirdiv2sec22 .div2 p{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+  }
+
+  #sec3 .div2sec2 .thirdiv2sec22 .div2 p a:hover{
+  background-color: rgb(195, 189, 189);
+  width: 28px;
+  height: 25px;
+  text-align: center;
+  }
+
+  #sec3 .div2sec2 .fourthdiv2sec2{
+    padding-top: 40px;
+  }
+
+  .sec2 .div2sec2 .fourthdiv2sec2 .div1 {
+    background-color: black;
+    color: white;
+    padding: 18px;
+  }
+
+  #sec3 .div2sec2 .fourthdiv2sec2 .div2{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  #sec3 .div2sec2 .fourthdiv2sec2 .div2 div{
+    padding-top: 20px;
+  }
+
+  #sec3 .div2sec2 .fourthdiv2sec2 .div2 input{
+   width: 320px;
+   height: 40px;
+   border: 1px solid rgb(182, 179, 179);
+   padding-left: 10px;
+  }
+
+  #sec3 .div2sec2 .fourthdiv2sec2 .div2 button{
+    width: 335px;
+    height: 40px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+   }
+  
+  #sec3 .div2sec2 .secondiv2sec2 .div2 img{
+     width: 157px;
+     height: 100px;
+    }
+
+    #sec3 .div2sec2 .secondiv2sec2 .div2 div{
+       display: flex;
+       flex-direction: column;
+       gap: 20px;
+       justify-content: center;
+       align-items: center;
+     }
+  
+  
+    #sec3 .div2sec2 .thirdiv2sec22{
+      padding-top: 40px;
+    }
+  
+    #sec3 .div2sec2 .thirdiv2sec22 .div1 {
+      background-color: black;
+      color: white;
+      padding: 20px;
+    }
+  
+    #sec3 .div2sec2 .thirdiv2sec22 .div2{
+      background-color: rgb(255, 255, 255);
+    }
+
+  /* section 4 */
+
+  #sec4 .div1sec2 {
+    height: 870px;
+    width: 850px;
+  }
+
+  /* css footer */
+
+  footer{
+    background-color:rgb(105, 104, 104);
+    color: white;
+    height: 115px;
+    font-size: 15px;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+footer .para1{
+  padding-bottom: 20px;
+}
+footer .para1 p{
+  background-color: black;
+  width: 150px;
+  height: 33px;
+  text-align: center;
+  padding: 10px;
+}
+
+footer .para2 p{
+  padding-top: 12px;
+}
+
+footer div a{
+    color: white;
+}
+
+main #sec3 .div1sec2{
+  position: relative;
+  top: -60px;
+}
+
+main #sec4 .div1sec2{
+  position: relative;
+  top: -200px;
+}
+
+footer{
+  position: relative;
+  top: -200px;
+margin-bottom: 0px;
+}
