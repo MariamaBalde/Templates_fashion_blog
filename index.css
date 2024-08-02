@@ -420,5 +420,37 @@ main #sec4 .div1sec2{
 footer{
   position: relative;
   top: -200px;
-margin-bottom: 0px;
+/* margin-bottom: 0px; */
+}
+
+@media only screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+
+  .sec2 {
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+    background-color: rgb(240, 237, 237);
+    padding: 10px;
+
+    width: 500px;
+  }
+
+  .sec2 .div1sec2 .secondsec2 img {
+    width: 300px;
+    height: 100px;
+  }
+
+  .sec2 .div1sec2 .firstsec2 {
+    text-align: center;
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .sec2 .div1sec2 .secondsec2 p {
+    padding-top: 30px;
+    font-size: 10px;
+  }
 }
